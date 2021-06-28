@@ -20,6 +20,12 @@ const members = [
 		email: 'shannon@gmail.com',
 		status: 'active',
 	},
+	{
+		id: 4,
+		name: 'shannon jackson ',
+		email: 'shannon@gmail.com',
+		status: 'active',
+	},
 ];
 app.get('/api/members', (req, res) => {
 	res.json(members);
